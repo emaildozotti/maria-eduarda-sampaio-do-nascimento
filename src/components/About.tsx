@@ -26,7 +26,7 @@ export default function About() {
                 </div>
 
                 <img
-                  src="{URL_DA_FOTO_ABOUT_EDUARDA}"
+                  src="https://i.imgur.com/1zEBym9.jpeg"
                   alt="Eduarda Sampaio, terapeuta TRG"
                   className="absolute inset-0 w-full h-full object-cover object-top rounded-sm"
                   loading="lazy"

@@ -1,7 +1,7 @@
 import { FadeIn } from '../App'
 
 export default function VideoSection() {
-  const videoId = '{YOUTUBE_VIDEO_ID_EDUARDA}'
+  const videoId = 'c2YMpYRjlJo'
 
   return (
     <section id="video" className="bg-bg-warm section-padding">
@@ -26,7 +26,7 @@ export default function VideoSection() {
                 style={{ width: '300px', paddingBottom: 'calc(300px * 16/9)', height: 0 }}
               >
                 <iframe
-                  src={`https://www.youtube.com/embed/${videoId}`}
+                  src={`https://www.youtube.com/embed/${videoId}?vq=hd1080`}
                   title="Vídeo de Eduarda Sampaio — TRG"
                   className="absolute inset-0 w-full h-full"
                   frameBorder="0"

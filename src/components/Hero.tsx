@@ -91,11 +91,6 @@ export default function Hero() {
                 </button>
               </FadeIn>
 
-              {/* Scroll indicator — só desktop */}
-              <FadeIn delay={0.6} className="hidden md:flex items-center gap-2 mt-12 text-text-main/40">
-                <div className="w-px h-12 bg-text-main/20" />
-                <span className="eyebrow-ultra">role para baixo</span>
-              </FadeIn>
             </div>
 
             {/* Foto — order-2 mobile e desktop */}
@@ -118,7 +113,7 @@ export default function Hero() {
 
                 {/* Foto real — substituir src pela URL real */}
                 <img
-                  src="{URL_DA_FOTO_HERO_EDUARDA}"
+                  src="https://i.imgur.com/4S4bGz8.jpeg"
                   alt="Eduarda Sampaio, terapeuta TRG"
                   className="absolute inset-0 w-full h-full object-cover object-top rounded-sm"
                   onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }}
