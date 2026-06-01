@@ -111,9 +111,8 @@ export default function Hero() {
                   <span className="text-primary/60 font-sans text-xs">Foto Eduarda</span>
                 </div>
 
-                {/* Foto real — substituir src pela URL real */}
                 <img
-                  src="https://i.imgur.com/4S4bGz8.jpeg"
+                  src="/eduarda-hero.jpg"
                   alt="Eduarda Sampaio, terapeuta TRG"
                   className="absolute inset-0 w-full h-full object-cover object-top rounded-sm"
                   onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }}
